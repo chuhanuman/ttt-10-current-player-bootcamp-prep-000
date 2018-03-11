@@ -5,6 +5,7 @@ def turn_count(board)
       occupied+=1
     end
   end
+  return occupied
 end
 def current_player(board)
   turns = turn_count(board)
